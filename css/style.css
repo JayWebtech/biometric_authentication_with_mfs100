@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Tektur&display=swap');
+.login{
+   background-color: #1C4532;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+}
+.box{
+   background-color: #fff;
+   border-radius: 20px;
+   padding: 20px;
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.box h1{
+   font-family: 'Tektur';
+}
+.box p{
+   font-family: 'Inconsolata';
+}
+.box #finger-img{
+   width: 25%;
+   margin-top: 20px;
+   border-radius: 20px;
+}
+.box button{
+   margin-top: 20px;
+   background-color: #1C4532;
+   padding: 15px;
+   border: none;
+   color: #fff;
+   width: 100%;
+   border-radius: 10px;
+   font-family: 'Inconsolata';
+   cursor: pointer;
+}
+.box a{
+   font-family: 'Tektur';
+   color: #1C4532;
+   margin-top: 10px;
+   text-decoration: none;
+}
+#login-button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.account{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+}
+.account p{
+   color: #fff;
+   font-family: 'Inconsolata';
+}
+.account a{
+   color: #fff;
+   font-family: 'Inconsolata';
+   text-decoration: none;
+}
+.input-control{
+   margin-top:  30px;
+   width: 100%;
+}
+.input-control input{
+   padding: 15px;
+   border: 1px solid #1C4532;
+   color: #000;
+   width: 100%;
+   border-radius: 10px;
+   outline: none;
+   font-family: 'Inconsolata';
+   margin-top: 20px;
+}
+input[readonly] {
+   background-color: #f2f2f2 !important;
+}
+ 
+button[disabled] {
+   opacity: 0.4;
+}

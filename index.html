@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biometric Authentication</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/testSDKMFS100ByVikash.js"></script>
+</head>
+<body>
+
+    <div class="login">
+        <div class="box">
+            <h1>Biometric Login</h1>
+            <p id="msg">Enter you User ID</p>
+            <img src="assets/fingerprint.jpg" id="finger-img" alt="">
+            <div class="input-control">
+                <input type="text" id="login_id" placeholder="Enter your user id" maxlength="5" required>
+            </div>
+            <button onclick="login()" id="login-button">Authenticate</button>
+        </div>
+        <div class="account">
+            <p>Do not have an account? <a href="register.html">Register here</a></p>
+            <p><a href="https://jaykosai.vercel.app" target="_blank">Made with ❤️ by Adamu Jethro</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
